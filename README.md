@@ -1,3 +1,26 @@
+# Weater APP
+
+
+## About 
+
+Weather app with react native
+
+## Screenshots
+
+<p align="center"><img src="https://jonyjg.com/resources/weather.png"></p>
+
+## Contact
+
+E-mail : jonysthil@gmail.com
+
+Website : www.jonyjg.com
+
+#Facebook : https://www.facebook.com/yagoub.reda
+
+## License
+
+This project is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
