@@ -29,7 +29,7 @@ const HomeScreen = () => {
 			setLoading(false);
 			setWeather(data);
 			storeData('city',loc.name);
-			console.log('got forecast: ', data)
+			//console.log('got forecast: ', data)
 		})
 	}
     
@@ -135,8 +135,8 @@ const HomeScreen = () => {
 							{/* Weather image */}
 							<View style={ styles.container_image_weather }>
 								<Image
-									source={{uri: 'https:'+current?.condition?.icon}}  
-									//source={weatherImages[current?.condition?.text || 'other']} 
+									//source={{uri: 'https:'+current?.condition?.icon}}  
+									source={weatherImages[current?.condition?.text || 'other']} 
 									//source={require('../assets/images/partlycloudy.png')}
 									style={ styles.image_weather }
 								/>
@@ -206,8 +206,8 @@ const HomeScreen = () => {
 													key={index} 
 												>
 													<Image
-														source={{uri: 'https:'+item?.day?.condition?.icon}}  
-														//source={weatherImages[item?.day?.condition?.text || 'other']}
+														//source={{uri: 'https:'+item?.day?.condition?.icon}}  
+														source={weatherImages[item?.day?.condition?.text || 'other']}
 														style={{ width: 44, height: 44 }}
 													/>
 													<Text style={{ color: '#fff' }}>{dayName}</Text>
