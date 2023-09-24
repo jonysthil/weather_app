@@ -7,7 +7,7 @@ Weather app with react native
 
 ## Screenshots
 
-<p align="center"><img src="https://jonyjg.com/resources/weather.png"></p>
+<p align="center"><img src="https://jonyjg.com/resources/weather_1.png"></p>
 
 ## Contact
 
